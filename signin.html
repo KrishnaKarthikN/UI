@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+      integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
+      crossorigin="anonymous"
+    />
+    <title>X-works Sign-In</title>
+    <style>
+      body {
+        background-color: rgb(240, 255, 255);
+      }
+      label {
+        color: rgb(28, 26, 26);
+      }
+      /* h4 {
+        text-align-last: center;
+        color: rgb(9, 9, 9)
+        word-spacing: 30px;
+      } */
+      a {
+        color: rgb(9, 9, 9);
+      }
+
+      .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: rgb(122, 182, 239);
+        color: white;
+        text-align: center;
+      }
+    </style>
+  </head>
+
+  <body>
+    <nav
+      class="navbar navbar-expand-lg navbar navbar-light"
+      style="background-color: rgb(122, 182, 239)"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="https://www.x-workz.in/">Xworkz</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse nav justify-content-end"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0"></ul>
+        </div>
+      </div>
+    </nav>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <div class="container" >
+      <div class="form-group">
+          <div class="col-md-4 col-md-offset-4"></div>
+        <label for="">Email</label>
+        <input
+          type="email"
+          name="email"
+          class="form-control"
+          required
+          autocomplete="off"
+        />
+        <div class="valid-feedback">Valid.</div>
+        <div class="invalid-feedback">Please fill out this field.</div>
+      </div>
+      
+      <div class="form-group">
+        <label for="password1">Password:</label>
+        <input
+          id="password1"
+          type="password"
+          required
+          name="up"
+          class="form-control"
+        />
+      </div>
+    <div class="border border-light p-3 mb-4">
+    <div class = "text-center" >
+      <button type="submit" class="btn btn-success" >Sign-In</button>
+    </div>    
+    </div>
+    </form>
+    </div>
+    <div class="footer">
+  <p> © 2020 Copyright: All rights reserved.</p>
+</div>
+
+
+
+  </body>
+</html>
